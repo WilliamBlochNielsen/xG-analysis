@@ -4,24 +4,27 @@ This project investigates the predictive power of **Expected Goals (xG)** and **
 
 ---
 
-## Features
+## Overview
 
-- **Data Preparation**:
+- **Import**:
   - Combines datasets for six Premier League seasons.
+  - Ensures consistent column naming and format.
+
+- **Wrangling**:
   - Filters players with valid consecutive seasons for analysis.
   - Adds necessary columns for **Expected Goals** and **Previous Season Goals** modeling.
 
-- **Analysis**:
-  - Two predictive models are built:
+- **Model**:
+  - Builds two predictive models:
     1. Using Expected Goals (xG) to predict next-season goals.
     2. Using Previous Season Goals to predict next-season goals.
 
-- **Visualization**:
+- **Visualize**:
   - Generates scatter plots to compare:
     - **Expected Goals vs. Next Season Goals**.
     - **Previous Season Goals vs. Next Season Goals**.
 
-- **Evaluation**:
+- **Evaluate**:
   - Calculates **Root Mean Square Error (RMSE)** for both models to measure prediction accuracy.
 
 ---
@@ -30,5 +33,6 @@ This project investigates the predictive power of **Expected Goals (xG)** and **
 
 1. **Clone the Repository**:
    ```bash
-   [https://github.com/WilliamBlochNielsen/xG-analysis.git]
- ``` 
+   https://github.com/WilliamBlochNielsen/xG-analysis.git
+ ```
+
