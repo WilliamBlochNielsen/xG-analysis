@@ -30,9 +30,16 @@ This project investigates the predictive power of **Expected Goals (xG)** and **
 ---
 
 ## Installation Guide
-
-1. **Clone the Repository**:
+Clone the Repository:
    ```bash
    https://github.com/WilliamBlochNielsen/xG-analysis.git
  ```
+Install required packages
+```bash
+install.packages(c("tidyverse", "janitor"))
+```
+# Important Notes on Model Results
+The Expected Goals Model (xG) gave an RMSE value of 2.7
+The Previous Season Goals Model gave an RMSE value of 3.2
 
+As the RMSE value of the Expected Goals Model we can conclude that expecting goals is a better predictor of future goals than previous goals scored. 
