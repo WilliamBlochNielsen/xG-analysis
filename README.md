@@ -30,5 +30,5 @@ This project investigates the predictive power of **Expected Goals (xG)** and **
 
 1. **Clone the Repository**:
    ```bash
-   [git clone https://github.com/YourUsername/PL-Goals-Prediction.git](https://github.com/WilliamBlochNielsen/xG-analysis.git)
+   [https://github.com/WilliamBlochNielsen/xG-analysis.git]
  ``` 
